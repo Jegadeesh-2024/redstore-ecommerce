@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" 
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+     crossorigin="anonymous"></script>
+     <!-- css link -->
+      <link rel="stylesheet" href="style.css">
+     <!-- Correct FontAwesome Link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+     <a href="index.html"> <img src="logo-white.png" alt="Logo" width="70%" height="40"></a>
+    </a>
+
+    <!-- Toggler for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar content -->
+    <div class="collapse navbar-collapse" id="navbarContent">
+
+      <!-- Search box -->
+      <form class="d-flex ms-auto me-3" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+
+      <!-- Menu items -->
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-basket"></i> Cart</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sign up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Log in</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<!-- single product -->
+ <section class="single-product">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="slider">
+    <!-- slider -->
+     <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="shirt.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="black t-shirt.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="formals.jpg" class="d-block w-100" alt="...">
+    </div>
+    
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+  
+            </div><!--col edn of the slider-->
+            <div class="col-md-7">
+                <p class="new-arrival text-center">New</p>
+                <h2>Mens T shirts Round neck - Black Color</h2>
+                <p>Product Code : IRSC2025</p>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+                <p class="price">$14.00</p>
+                <p><b>Availability:</b>In stock</p>
+                <p><b>Condition:</b>New</p>
+                <p><b>Brand:</b>Jega company</p>
+                <label>Quantity:</label>
+                <input type="text" value="1">
+                <button class="btn btn-primary">Add To Cart</button>
+            </div>
+        </div>
+    </div>
+ </section>
+ <!-- product description -->
+  <section class="product-description">
+    <div class="container">
+        <h6>Product Description</h6>
+        <p>Upgrade your wardrobe with our premium collection of men’s wear featuring stylish t-shirts, elegant formal shirts, and trendy casual shirts. Our casual t-shirts are crafted with soft, breathable cotton to keep you comfortable all day. Available in multiple colors and sizes, these tees are perfect for daily wear, outings, or relaxed weekends.
+
+For a professional and polished look, explore our formal shirts. Tailored with a slim-fit design and wrinkle-resistant fabric, these shirts are ideal for office meetings, interviews, and formal events. Each piece is designed to offer a smart appearance while ensuring comfort throughout your workday.
+
+Our casual shirts blend fashion and functionality. Whether you're heading to a party or a casual dinner, these shirts with modern patterns and flattering fits add a stylish touch to any look. Choose from checks, solids, or prints that reflect your unique personality.
+
+Every shirt is made with high-quality fabric, durable stitching, and attention to detail. Sizes range from S to XXL, ensuring the perfect fit for every body type. With affordable pricing and fast shipping, our collection is a must-have for every fashion-forward man. Shop now and elevate your everyday style with our best-selling shirts</p>
+<hr>
+<div class="container mt-5">
+      <div class="title-box">
+        <h2>Similar </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+  <div class="card product-top position-relative">
+    <img src="category2.jpg" class="card-img-top" alt="Fitness Watch">
+
+    <!-- Overlay buttons on hover -->
+    <div class="overlay-right">
+      <button type="button" class="btn btn-warning" title="Quick shop">
+        <i class="bi bi-eye"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to cart">
+        <i class="bi bi-cart"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to wishlist">
+        <i class="bi bi-heart"></i>
+      </button>
+    </div>
+
+    <!-- Card body content -->
+    <div class="card-body text-center">
+      <h6 class="card-title mb-1">Fitness Watches</h6>
+      <div class="mb-2">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-half text-warning"></i>
+      </div>
+      <p class="card-text fw-bold">$50.00</p>
+    </div>
+  </div>
+</div>
+
+
+  <div class="col-md-3 mb-4">
+  <div class="card product-top position-relative">
+    <img src="computer.jpeg" class="card-img-top" alt="Fitness Watch">
+
+    <!-- Overlay buttons on hover -->
+    <div class="overlay-right">
+      <button type="button" class="btn btn-warning" title="Quick shop">
+        <i class="bi bi-eye"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to cart">
+        <i class="bi bi-cart"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to wishlist">
+        <i class="bi bi-heart"></i>
+      </button>
+    </div>
+
+    <!-- Card body content -->
+    <div class="card-body text-center">
+      <h6 class="card-title mb-1">Computer Macbook</h6>
+      <div class="mb-2">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-half text-warning"></i>
+      </div>
+      <p class="card-text fw-bold">$200.00</p>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 mb-4">
+  <div class="card product-top position-relative">
+    <img src="magazines.jpg" class="card-img-top" alt="Fitness Watch">
+
+    <!-- Overlay buttons on hover -->
+    <div class="overlay-right">
+      <button type="button" class="btn btn-warning" title="Quick shop">
+        <i class="bi bi-eye"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to cart">
+        <i class="bi bi-cart"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to wishlist">
+        <i class="bi bi-heart"></i>
+      </button>
+    </div>
+
+    <!-- Card body content -->
+    <div class="card-body text-center">
+      <h6 class="card-title mb-1">Magazines</h6>
+      <div class="mb-2">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-half text-warning"></i>
+      </div>
+      <p class="card-text fw-bold">$20.00</p>
+    </div>
+  </div>
+</div>
+<div class="col-md-3 mb-4">
+  <div class="card product-top position-relative">
+    <img src="shoe.jpg" class="card-img-top" alt="Fitness Watch">
+
+    <!-- Overlay buttons on hover -->
+    <div class="overlay-right">
+      <button type="button" class="btn btn-warning" title="Quick shop">
+        <i class="bi bi-eye"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to cart">
+        <i class="bi bi-cart"></i>
+      </button>
+      <button type="button" class="btn btn-warning" title="Add to wishlist">
+        <i class="bi bi-heart"></i>
+      </button>
+    </div>
+
+    <!-- Card body content -->
+    <div class="card-body text-center">
+      <h6 class="card-title mb-1">Blue Additas Shoe </h6>
+      <div class="mb-2">
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-fill text-warning"></i>
+        <i class="bi bi-star-half text-warning"></i>
+      </div>
+      <p class="card-text fw-bold">$80.00</p>
+    </div>
+  </div>
+</div>
+
+    </div>
+    </div>
+  </section>
+
+
+   <!-- footer -->
+    <section class="footer">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-3">
+            <h1>Useful links</h1>
+            <p>Privacy policy</p>
+            <p>Terms and Conditions</p>
+            <p>Return and Policy</p>
+            <p>Discount Coupons</p>
+          </div>
+
+          <div class="col-md-3">
+            <h1>Company</h1>
+            <p>About Us</p>
+            <p>Contact Us</p>
+            <p>Career</p>
+            <p>Affliate</p>
+          </div>
+          <div class="col-md-3">
+            <h1>Follow us</h1>
+            <p><i class="bi bi-facebook"></i>Facebook</p>
+            <p><i class="bi bi-youtube"></i>Youtube </p>
+            <p><i class="bi bi-instagram">Instagram</i></p>
+            <p><i class="bi bi-twitter"></i>Twitter</p>
+          </div>
+          <div class="col-md-3">
+            <h1>Download App</h1>
+            <img src="play-store.png" alt="" class="img-fluid" width="120px">
+            <img src="app-store.png" alt="" class="img-fluid" width="120px">
+          </div>
+          
+
+        </div>
+      </div>
+    </section>
+</body>
